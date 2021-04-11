@@ -26,7 +26,7 @@ h2 span {
 .header {
   padding: 5px;
   background-color: #0fb9b1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hidden {
@@ -37,14 +37,15 @@ h2 span {
   max-width: 1600px;
   margin: 40px auto 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   gap: 200px;
 }
 
 .box1 {
   padding: 40px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
+  /* box-sizing: border-box; */
+  /* margin-bottom: 20px; */
+  /* height: 500px; */
   /* margin-right: 50px; */
   /* display: flex; */
   flex: 1;
@@ -52,35 +53,41 @@ h2 span {
   background-color: rgba(225, 225, 225, .9);
   flex-wrap: wrap;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .box2 {
   padding: 40px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  /* height: 500px; */
   /* display: flex; */
   /* margin-left: 50px; */
+  text-align: center;
   flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   flex-basis: 45%;
   background-color: rgba(225, 225, 225, .9);
-  float: right;
-  align-content: center;
+  /* float: right; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  font-family: 'Roboto', sans-serif;
 }
 
 #maketxt {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
-  font-weight: 525;
+  justify-content: center;
+  align-items: center;
 }
 
 #foodtxt {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  font-weight: 525;
+  justify-content: center;
+  align-items: center;
 }
 
 .cookPot {
@@ -101,6 +108,8 @@ h2 span {
   background-color: #95a5a6;
   color: rgba(225, 225, 225, .9);
   border: none;
+  justify-content: flex-end;
+  float: right;
 }
 
 .letsCookBtn {
@@ -108,7 +117,7 @@ h2 span {
   line-height: 2.5;
   background-color: #0fb9b1;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: none;
 }
 
