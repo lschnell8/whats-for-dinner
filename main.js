@@ -1,6 +1,7 @@
 //Variables
 var letsCookBtn = document.querySelector('.letsCookBtn');
 var addRecipeBtn = document.querySelector('.addRecipeBtn');
+var clearBtn = document.getElementById('clearBtn');
 var sideInput = document.getElementById('side');
 var mainDishInput = document.getElementById('mainDish');
 var dessertInput = document.getElementById('dessert');
@@ -20,7 +21,7 @@ function selectRandomFoodIndex(array) {
 };
 
 function showRandomDish() {
-  disableLetsCookBtn();
+  // disableLetsCookBtn();
   hideCookPot();
   showFood();
   if (sideInput.checked == true) {
@@ -30,18 +31,19 @@ function showRandomDish() {
   } else if (dessertInput.checked == true) {
     food.innerText = desserts[selectRandomFoodIndex(desserts)];
   } else if (entireMealInput.checked == true) {
-    food.innerText = [mains[selectRandomFoodIndex(mains)], sides[selectRandomFoodIndex(sides)], desserts[selectRandomFoodIndex(desserts)]];
-  }
-};
-
-function disableLetsCookBtn() {
-  if (sideInput.checked == false && mainDishInput.checked == false && dessertInput.checked == false && entireMealInput.checked == false) {
-    // letsCookBtn.disabled = true;
+    food.innerText = `${mains[selectRandomFoodIndex(mains)]}, with ${sides[selectRandomFoodIndex(sides)]}, and ${desserts[selectRandomFoodIndex(desserts)]} for dessert!`;
+  } else {
     alert('Please select an input');
     showCookPot();
     hideFood();
   }
 };
+
+// function disableLetsCookBtn() {
+//   if (sideInput.checked == false && mainDishInput.checked == false && dessertInput.checked == false && entireMealInput.checked == false) {
+//     letsCookBtn.disabled = true;
+//   }
+// };
 
 function hideCookPot() {
   cookPot.classList.add('hidden');
@@ -54,11 +56,13 @@ function showCookPot() {
 function showFood() {
   foodtxt.classList.remove('hidden');
   maketxt.classList.remove('hidden');
+  clearBtn.classList.remove('hidden');
 };
 
 function hideFood() {
   foodtxt.classList.add('hidden');
   maketxt.classList.add('hidden');
+  clearBtn.classList.add('hidden');
 };
 
 function addRecipe() {

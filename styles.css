@@ -26,7 +26,7 @@ h2 span {
 .header {
   padding: 5px;
   background-color: #0fb9b1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hidden {
@@ -37,14 +37,14 @@ h2 span {
   max-width: 1600px;
   margin: 40px auto 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   gap: 200px;
 }
 
 .box1 {
   padding: 40px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
+  /* box-sizing: border-box; */
+  /* margin-bottom: 20px; */
   /* height: 500px; */
   /* margin-right: 50px; */
   /* display: flex; */
@@ -53,36 +53,38 @@ h2 span {
   background-color: rgba(225, 225, 225, .9);
   flex-wrap: wrap;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .box2 {
   padding: 40px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* height: 500px; */
   /* display: flex; */
   /* margin-left: 50px; */
+  text-align: center;
   flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   flex-basis: 45%;
   background-color: rgba(225, 225, 225, .9);
   /* float: right; */
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center; */
+  /* align-content: center; */
+  font-family: 'Roboto', sans-serif;
 }
 
 #maketxt {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   justify-content: center;
   align-items: center;
 }
 
 #foodtxt {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   justify-content: center;
   align-items: center;
@@ -107,7 +109,7 @@ h2 span {
   color: rgba(225, 225, 225, .9);
   border: none;
   justify-content: flex-end;
-  align-items: flex-end;
+  float: right;
 }
 
 .letsCookBtn {
@@ -115,7 +117,7 @@ h2 span {
   line-height: 2.5;
   background-color: #0fb9b1;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: none;
 }
 
