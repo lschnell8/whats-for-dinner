@@ -45,6 +45,7 @@ h2 span {
   padding: 40px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  /* height: 500px; */
   /* margin-right: 50px; */
   /* display: flex; */
   flex: 1;
@@ -60,6 +61,7 @@ h2 span {
   padding: 40px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  /* height: 500px; */
   /* display: flex; */
   /* margin-left: 50px; */
   flex: 1;
@@ -67,20 +69,23 @@ h2 span {
   flex-direction: column;
   flex-basis: 45%;
   background-color: rgba(225, 225, 225, .9);
-  float: right;
+  /* float: right; */
+  justify-content: center;
   align-content: center;
 }
 
 #maketxt {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  font-weight: 525;
+  justify-content: center;
+  align-items: center;
 }
 
 #foodtxt {
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
-  font-weight: 525;
+  justify-content: center;
+  align-items: center;
 }
 
 .cookPot {
@@ -101,6 +106,8 @@ h2 span {
   background-color: #95a5a6;
   color: rgba(225, 225, 225, .9);
   border: none;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .letsCookBtn {
