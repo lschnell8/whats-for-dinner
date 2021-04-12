@@ -24,7 +24,7 @@ h2 span {
 }
 
 .header {
-  padding: 5px;
+  padding: 1px;
   background-color: #0fb9b1;
   font-family: 'Roboto', sans-serif;
 }
@@ -37,17 +37,11 @@ h2 span {
   max-width: 1600px;
   margin: 40px auto 0 auto;
   display: flex;
-  /* justify-content: space-evenly; */
   gap: 200px;
 }
 
 .box1 {
   padding: 40px;
-  /* box-sizing: border-box; */
-  /* margin-bottom: 20px; */
-  /* height: 500px; */
-  /* margin-right: 50px; */
-  /* display: flex; */
   flex: 1;
   flex-basis: 45%;
   background-color: rgba(225, 225, 225, .9);
@@ -59,35 +53,24 @@ h2 span {
 
 .box2 {
   padding: 40px;
-  box-sizing: border-box;
-  /* margin-bottom: 20px; */
-  /* height: 500px; */
-  /* display: flex; */
-  /* margin-left: 50px; */
   text-align: center;
   flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   flex-basis: 45%;
   background-color: rgba(225, 225, 225, .9);
-  /* float: right; */
-  /* justify-content: center; */
-  /* align-content: center; */
+  justify-content: center;
   font-family: 'Roboto', sans-serif;
 }
 
 #maketxt {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  justify-content: center;
-  align-items: center;
 }
 
 #foodtxt {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  justify-content: center;
-  align-items: center;
 }
 
 .cookPot {
@@ -98,7 +81,7 @@ h2 span {
   float: right;
   height: 30px;
   border-radius: 5px;
-  border: none;
+  border: 0;
 }
 
 #clearBtn {
@@ -107,18 +90,18 @@ h2 span {
   border-radius: 5px;
   background-color: #95a5a6;
   color: rgba(225, 225, 225, .9);
-  border: none;
-  justify-content: flex-end;
+  border: 0;
+  align-self: flex-end;
   float: right;
 }
 
 .letsCookBtn {
-  padding: 0 60px;
+  padding: 0 50px;
   line-height: 2.5;
   background-color: #0fb9b1;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
-  border: none;
+  border: 0;
 }
 
 .letsCookBtn:hover {

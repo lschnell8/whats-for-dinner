@@ -9,7 +9,6 @@ var entireMealInput = document.getElementById('entireMeal');
 var food = document.getElementById('foodtxt');
 var pot = document.getElementById('cookPot');
 var youShouldMake = document.getElementById('maketxt');
-// letsCookBtn.disabled = true;
 
 //Event Listeners
 letsCookBtn.addEventListener('click', showRandomDish);
@@ -22,7 +21,6 @@ function selectRandomFoodIndex(array) {
 };
 
 function showRandomDish() {
-  // disableLetsCookBtn();
   hideCookPot();
   showFood();
   if (sideInput.checked == true) {
