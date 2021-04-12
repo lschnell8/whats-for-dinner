@@ -9,11 +9,11 @@ var entireMealInput = document.getElementById('entireMeal');
 var food = document.getElementById('foodtxt');
 var pot = document.getElementById('cookPot');
 var youShouldMake = document.getElementById('maketxt');
-// letsCookBtn.disabled = true;
 
 //Event Listeners
 letsCookBtn.addEventListener('click', showRandomDish);
 addRecipeBtn.addEventListener('click', addRecipe);
+clearBtn.addEventListener('click', clearText);
 
 //Functions
 function selectRandomFoodIndex(array) {
@@ -21,7 +21,6 @@ function selectRandomFoodIndex(array) {
 };
 
 function showRandomDish() {
-  // disableLetsCookBtn();
   hideCookPot();
   showFood();
   if (sideInput.checked == true) {
@@ -39,11 +38,10 @@ function showRandomDish() {
   }
 };
 
-// function disableLetsCookBtn() {
-//   if (sideInput.checked == false && mainDishInput.checked == false && dessertInput.checked == false && entireMealInput.checked == false) {
-//     letsCookBtn.disabled = true;
-//   }
-// };
+function clearText() {
+  hideFood();
+  showCookPot();
+};
 
 function hideCookPot() {
   cookPot.classList.add('hidden');
