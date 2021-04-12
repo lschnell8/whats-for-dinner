@@ -32,13 +32,13 @@ Main Page:
 - Click the Clear button to clear the text and reveal the pot again
 - Clicking the Add Recipe button in the top right corner will result in a message that advises that the button is under construction
 
-<img width="1015" alt="CookPot" src="https://user-images.githubusercontent.com/78449313/114328056-bdb11c80-9af8-11eb-9f39-50604ff0dc2d.png">
+<img width="1280" alt="CookPot" src="https://user-images.githubusercontent.com/78449313/114331435-34eaae80-9b01-11eb-8da2-4ece350686b6.png">
 
-<img width="1015" alt="Recipe" src="https://user-images.githubusercontent.com/78449313/114328093-cefa2900-9af8-11eb-86b9-4e568713944b.png">
+<img width="1280" alt="Recipe" src="https://user-images.githubusercontent.com/78449313/114331459-4338ca80-9b01-11eb-8348-57a37c7fe052.png">
 
 ## Deployed Page
 
-Visit the live What’s for Dinner? page at: https://github.com/lschnell8/whats-for-dinner.git
+Visit the live What’s for Dinner? page at: https://lschnell8.github.io/whats-for-dinner/
 
 ## Possible Future Extensions
 
