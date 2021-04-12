@@ -1,6 +1,7 @@
 # What's for Dinner?
 
-Table of Contents
+## Table of Contents
+
 * Introduction
 * Technologies
 * Features
@@ -8,17 +9,17 @@ Table of Contents
 * Set Up
 * Sources
 
-# Introduction
+## Introduction
 
 What’s for Dinner? takes the guess work and indecision out of cooking. Upon arrival to the deployed page, you will be able to select an input of Side, Main Dish, Dessert, or  Entire Meal. Click the Let’s Cook! button to reveal what you should cook.  Don’t like the suggestion generated? Either click the Clear button to start fresh or click the Let’s Cook! button again to see the next selection.
 
-# Technologies
+## Technologies
 
 * Javascript
 * HTML
 * CSS
 
-# Features
+## Features
 
 Main Page:
 
@@ -31,30 +32,30 @@ Main Page:
 - Click the Clear button to clear the text and reveal the pot again
 - Clicking the Add Recipe button in the top right corner will result in a message that advises that the button is under construction
 
-![Uploading CookPot.png…]()
+<img width="1015" alt="CookPot" src="https://user-images.githubusercontent.com/78449313/114328056-bdb11c80-9af8-11eb-9f39-50604ff0dc2d.png">
 
-![Uploading Recipe.png…]()
+<img width="1015" alt="Recipe" src="https://user-images.githubusercontent.com/78449313/114328093-cefa2900-9af8-11eb-86b9-4e568713944b.png">
 
-# Deployed Page
+## Deployed Page
 
 Visit the live What’s for Dinner? page at: https://github.com/lschnell8/whats-for-dinner.git
 
-#Possible Future Extensions
+## Possible Future Extensions
 
 * Give the Add Recipe button proper functionality so the user can add their own recipe to the array of provided assets
 * The ability for a user to delete a recipe
 
-# Set Up
+## Set Up
 
 1. Fork this repo
 2. Clone the repo to your local machine
 3. View the project in the browser by running open index.html in your terminal
 
-# Sources
+## Sources
 
 * MDN
 * W3Schools
 
-# What’s for Dinner?  Project Specs
+## What’s for Dinner?  Project Specs
 
 The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
