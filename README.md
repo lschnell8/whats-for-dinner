@@ -1,23 +1,60 @@
 # What's for Dinner?
 
-## Overview
+Table of Contents
+* Introduction
+* Technologies
+* Features
+* Illustrations
+* Set Up
+* Sources
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+# Introduction
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+What’s for Dinner? takes the guess work and indecision out of cooking. Upon arrival to the deployed page, you will be able to select an input of Side, Main Dish, Dessert, or  Entire Meal. Click the Let’s Cook! button to reveal what you should cook.  Don’t like the suggestion generated? Either click the Clear button to start fresh or click the Let’s Cook! button again to see the next selection.
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+# Technologies
 
-## Learning Goals
+* Javascript
+* HTML
+* CSS
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+# Features
 
-## Setup
+Main Page:
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+- When What’s for Dinner? loads, you will see two boxes, the left one has radio inputs and a button and the right one has a pot displayed
+- Select one of the radio inputs from the left box
+- Click the Let’s Cook! button to submit your request for a dish
+- Clicking the Let’s Cook! button before selecting an input will result a prompt to select an input
+- In the right box, the pot will disappear and your randomly selected dish or meal will be revealed
+- Also in the right box, a Clear button will appear with generated dish
+- Click the Clear button to clear the text and reveal the pot again
+- Clicking the Add Recipe button in the top right corner will result in a message that advises that the button is under construction
+
+![Uploading CookPot.png…]()
+
+![Uploading Recipe.png…]()
+
+# Deployed Page
+
+Visit the live What’s for Dinner? page at: https://github.com/lschnell8/whats-for-dinner.git
+
+#Possible Future Extensions
+
+* Give the Add Recipe button proper functionality so the user can add their own recipe to the array of provided assets
+* The ability for a user to delete a recipe
+
+# Set Up
+
+1. Fork this repo
+2. Clone the repo to your local machine
+3. View the project in the browser by running open index.html in your terminal
+
+# Sources
+
+* MDN
+* W3Schools
+
+# What’s for Dinner?  Project Specs
+
+The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
